@@ -46,7 +46,6 @@ def deposito(valor):
     else:
         return "Operação falhou! O valor informado é inválido."
 
-# ---------- Loop interativo ----------
 while True:
     opcao = input(menu).lower()
 
